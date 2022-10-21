@@ -8,7 +8,7 @@ function HomePage(props) {
       title: "javaxript introduction",
       image: "javascript.jpg",
       exerpt:
-        "It is a sequence of Latin words that, as they are positioned, do not form sentences with a complete sense, but give life to a test text useful to fill spaces that will subsequently be occupied from ad hoc texts composed by communication professionals.",
+        "It is a sequence of Latin words that, as they are positioned, do not form  communication professionals.",
       date: "2022-02-10",
     },
     {
@@ -16,7 +16,7 @@ function HomePage(props) {
       title: " React",
       image: "react.png",
       exerpt:
-        "It is a sequence of Latin words that, as they are positioned, do not form sentences with a complete sense, but give life to a test text useful to fill spaces that will subsequently be occupied from ad hoc texts composed.      ",
+        "It is a sequence of Latin words that, as they are positioned, do notcomposed.      ",
       date: "2022-02-10",
     },
     {
@@ -24,7 +24,7 @@ function HomePage(props) {
       title: " Typescript",
       image: "ts.png",
       exerpt:
-        "It is a sequence of Latin words that, as they are positioned, do not form sentences with a complete sense, but give life to a test text useful to fill spaces that will subsequently be occupied from ad hoc texts composed by communication professionals      ",
+        "It is a sequence of Latin words that, as they  from ad hoc texts composed by communication professionals      ",
       date: "2022-02-10",
     },
   ];
