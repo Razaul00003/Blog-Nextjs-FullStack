@@ -1,18 +1,25 @@
-import classes from "./hero.module.css";
 import Image from "next/image";
+
+import classes from "./hero.module.css";
+
 function Hero() {
   return (
     <section className={classes.hero}>
       <div className={classes.image}>
-        <Image src="/images/site/max.jpg" alt="max" width={300} height={300} />
+        <Image
+          src="/images/site/author.jpg"
+          alt="An image showing Max"
+          width={300}
+          height={300}
+        />
       </div>
-      <h1>Hi, I am John</h1>
+      <h1>Hi, I'm John</h1>
       <p>
-        {" "}
-        I blog about fronted frameworks especially React, Nextjs, Vue and
-        Angular and Javascript
+        I blog about web development - especially frontend frameworks like
+        Angular or React.
       </p>
     </section>
   );
 }
+
 export default Hero;
