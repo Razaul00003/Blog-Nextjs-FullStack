@@ -1,12 +1,17 @@
-import { Fragment } from 'react';
+import { Fragment } from "react";
+import Head from "next/head";
 
-import FeaturedPosts from '../components/home-page/featured-posts';
-import Hero from '../components/home-page/hero';
-import { getFeaturedPosts } from '../lib/posts-util';
+import FeaturedPosts from "../components/home-page/featured-posts";
+import Hero from "../components/home-page/hero";
+import { getFeaturedPosts } from "../lib/posts-util";
 
 function HomePage(props) {
   return (
     <Fragment>
+      <Head>
+        <title>Nextjs fullstack blog on Javscript </title>
+        <meta name="description" content=" nextjs full stack blog home page " />
+      </Head>
       <Hero />
       <FeaturedPosts posts={props.posts} />
     </Fragment>

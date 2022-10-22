@@ -1,8 +1,16 @@
-import AllPosts from '../../components/posts/all-posts';
-import { getAllPosts } from '../../lib/posts-util';
-
+import AllPosts from "../../components/posts/all-posts";
+import { getAllPosts } from "../../lib/posts-util";
+import Head from "next/head";
 function AllPostsPage(props) {
-  return <AllPosts posts={props.posts} />
+  return (
+    <>
+      <Head>
+        <title>All post page </title>
+        <meta name="description" content=" nextjs full stack blog home page " />
+      </Head>
+      <AllPosts posts={props.posts} />
+    </>
+  );
 }
 
 export function getStaticProps() {
@@ -10,8 +18,8 @@ export function getStaticProps() {
 
   return {
     props: {
-      posts: allPosts
-    }
+      posts: allPosts,
+    },
   };
 }
 
